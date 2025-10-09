@@ -73,10 +73,10 @@
             <!-- Placeholder service card 1 -->
             <div class="col-md-4">
                 <div class="card service-card p-3 text-center">
-                    <h5 class="card-title">Manager Window</h5>
+                   <!--   <h5 class="card-title">Show Books</h5>-->
                    <!--  <p class="card-text">Description of service will go here.</p> -->
-                    <form action="mlogin.jsp" >
-                    <input type="submit" value="Open Services">
+                    <form action="books.jsp" >
+                    <input class="btn border-secondary border-2" type="submit" value="See Books">
                     </form>
                 </div>
             </div>
@@ -84,16 +84,22 @@
             <!-- Placeholder service card 2 -->
             <div class="col-md-4">
                 <div class="card service-card p-3 text-center">
-                    <h5 class="card-title">Service 2</h5>
-                    <p class="card-text">Description of service will go here.</p>
+                    <!--  <h5 class="card-title">Know Authors</h5>-->
+                 <!--    <p class="card-text">Description of service will go here.</p> -->
+                  <form action="" >
+                    <input class="btn border-secondary border-2" type="submit" value="Know Authors">
+                    </form>
+                    
                 </div>
             </div>
 
             <!-- Placeholder service card 3 -->
             <div class="col-md-4">
                 <div class="card service-card p-3 text-center">
-                    <h5 class="card-title">Service 3</h5>
-                    <p class="card-text">Description of service will go here.</p>
+                 <!--    <h5 class="card-title">Buy Books</h5>--> 
+                     <form action="" >
+                    <input class="btn border-secondary border-2" type="submit" value="Buy now">
+                    </form>
                 </div>
             </div>
 

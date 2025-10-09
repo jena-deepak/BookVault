@@ -2,6 +2,7 @@ package bookvault.service;
 
 import java.util.List;
 
+import bookvault.entity.Authors;
 import bookvault.entity.users;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -32,6 +33,12 @@ public class UserService {
 		manager.persist(user);
 		transaction.commit();
 		System.out.println("NEW USER CREATED!!");
+	}
+	
+	public void createAuthor(Authors author) {
+		transaction.begin();
+		manager.persist(author);
+		transaction.commit();
 	}
 
 }

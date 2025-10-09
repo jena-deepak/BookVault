@@ -2,14 +2,16 @@ package bookvault.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToOne;
 
-
+@Entity
 public class Books {
 	@Id
 	private int bookId;
 	private String bookName;
-	@OneToOne
+	@ManyToOne@JoinColumn(name="author_id")
 	private Authors author; 
 	private double price;
 	public int getBookId() {
