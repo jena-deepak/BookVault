@@ -14,6 +14,14 @@ public class Books {
 	@ManyToOne@JoinColumn(name="author_id")
 	private Authors author; 
 	private double price;
+	private String bookUrl;
+	
+	public String getBookUrl() {
+		return bookUrl;
+	}
+	public void setBookUrl(String bookUrl) {
+		this.bookUrl = bookUrl;
+	}
 	public int getBookId() {
 		return bookId;
 	}
@@ -38,19 +46,20 @@ public class Books {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	public Books(int bookId, String bookName, Authors author, double price) {
+	public Books(int bookId, String bookName, Authors author, double price ,String bookUrl) {
 		super();
 		this.bookId = bookId;
 		this.bookName = bookName;
 		this.author = author;
 		this.price = price;
+		this.bookUrl=bookUrl;
 	}
 	public Books() {
 		super();
 	}
 	@Override
 	public String toString() {
-		return "Books [bookId=" + bookId + ", bookName=" + bookName + ", author=" + author + ", price=" + price + "]";
+		return "Books [bookId=" + bookId + ", bookName=" + bookName + ", author=" + author + ", price=" + price + ", bookUrl="+ bookUrl+"]";
 	}
 	
 	

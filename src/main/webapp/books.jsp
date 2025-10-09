@@ -40,7 +40,7 @@
         }
 
         .book-card img {
-            height: 250px;
+            height: 300px;
             object-fit: cover;
             border-radius: 15px 15px 0 0;
         }
@@ -72,8 +72,8 @@
                     for (Books book : booksList) {
             %>
             <div class="col-md-3">
-                <div class="card book-card">
-                    <img src="https://rukminim2.flixcart.com/image/480/640/xif0q/book/s/u/5/harry-potter-and-the-sorcerer-s-stone-book-1-original-imah9b3wgbeemruh.jpeg?q=90" class="card-img-top" alt="<%= book.getBookName() %>">
+                <div class="card book-card" style="height:450px!important">
+                    <img src="<%=book.getBookUrl() %>" class="card-img-top img-fluid" alt="<%= book.getBookName() %>">
                     <div class="card-body text-center">
                         <h5 class="card-title text-gradient"><%= book.getBookName() %></h5>
                         <p class="card-text"><strong>Author:</strong> <%= book.getAuthor().getAuthorName() %></p>
