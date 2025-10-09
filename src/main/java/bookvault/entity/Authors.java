@@ -16,6 +16,14 @@ public class Authors {
 	private int age;
 	@OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
 	private List<Books> book;
+	private String authorPhotoUrl;
+	
+	public String getAuthorPhotoUrl() {
+		return authorPhotoUrl;
+	}
+	public void setAuthorPhotoUrl(String authorPhotoUrl) {
+		this.authorPhotoUrl = authorPhotoUrl;
+	}
 	public int getAuthorId() {
 		return authorId;
 	}
@@ -46,13 +54,14 @@ public class Authors {
 	public void setBook(List<Books> book) {
 		this.book = book;
 	}
-	public Authors(int authorId, String authorName, String awards, int age, List<Books> book) {
+	public Authors(int authorId, String authorName, String awards, int age, List<Books> book, String authorPhotoUrl) {
 		super();
 		this.authorId = authorId;
 		this.authorName = authorName;
 		this.awards = awards;
 		this.age = age;
 		this.book = book;
+		this.authorPhotoUrl=authorPhotoUrl;
 	}
 	public Authors() {
 		super();
@@ -60,7 +69,7 @@ public class Authors {
 	@Override
 	public String toString() {
 		return "Authors [authorId=" + authorId + ", authorName=" + authorName + ", awards=" + awards + ", age=" + age
-				+ ", book=" + book + "]";
+				+ ", book=" + book +", authorPhotoUrl="+authorPhotoUrl +"]";
 	}
 	
 	

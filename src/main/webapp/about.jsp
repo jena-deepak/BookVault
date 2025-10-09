@@ -134,17 +134,17 @@
             <h2>Meet Our Team</h2>
             <div class="row g-4">
                 <div class="col-md-4 text-center">
-                    <img src=".//utility-imgs/WhatsApp Image 2025-06-11 at 12.20.09 AM.jpg" alt="Team Member 1">
+                    <img src=".//utility-imgs/My passphoto .png" alt="Team Member 1" class="img-fluid" style="height:500px!important">
                     <h5>Deepak Jena</h5>
                     <p>Backend Developer/Team Leader</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src=".//utility-imgs/ashish(backend dev) img.jpg" alt="Team Member 2">
+                    <img src=".//utility-imgs/ashish(backend dev) img.jpg" alt="Team Member 2" class="img-fluid" style="height:500px!important">
                     <h5>Asish Khuntia</h5>
-                    <p>Backend Developer</p>
+                    <p>Associate Software Developer</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src=".//utility-imgs/Pinki(frontend dev) img.jpg" alt="Team Member 3">
+                    <img src=".//utility-imgs/Pinki(frontend dev) img.jpg" alt="Team Member 3" class="img-fluid" style="height:500px!important">
                     <h5>Pinki Pradhan</h5>
                     <p>Frontend Developer</p>
                 </div>

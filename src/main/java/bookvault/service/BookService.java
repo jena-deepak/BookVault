@@ -2,6 +2,7 @@ package bookvault.service;
 
 import java.util.List;
 
+import bookvault.entity.Authors;
 import bookvault.entity.Books;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
@@ -27,6 +28,11 @@ public class BookService {
 //			System.out.println(book.getBookId()+" "+book.getBookName()+" "+book.getAuthor().getAuthorName() );
 //			
 //		}
+	}
+	public List<Authors> fetchAuthors(){
+		Query query = manager.createQuery("FROM Authors");
+		return query.getResultList();
+		
 	}
 
 }

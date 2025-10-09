@@ -86,7 +86,7 @@
                 <div class="card service-card p-3 text-center">
                     <!--  <h5 class="card-title">Know Authors</h5>-->
                  <!--    <p class="card-text">Description of service will go here.</p> -->
-                  <form action="" >
+                  <form action="authors.jsp" >
                     <input class="btn border-secondary border-2" type="submit" value="Know Authors">
                     </form>
                     

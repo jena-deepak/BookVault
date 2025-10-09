@@ -17,18 +17,18 @@ public class EntityDriver {
 		UserService service = new UserService();
 //	
 	
-	Authors author1 = new Authors();
-	author1.setAuthorId(105);
-	author1.setAuthorName("George R. R. Martin");
-	author1.setAwards("Emmy Awards");
-	author1.setAge(77);
-	List<Books> bookList = new ArrayList<Books>();
-	Books book1 = new Books();
-	book1.setBookId(6);
-	book1.setBookName("Game Of Thrones (A Song of Ice and Fire)");
-	book1.setPrice(599);
-	book1.setBookUrl("https://upload.wikimedia.org/wikipedia/en/d/dc/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg");
-	book1.setAuthor(author1);
+//	Authors author1 = new Authors();
+//	author1.setAuthorId(105);
+//	author1.setAuthorName("George R. R. Martin");
+//	author1.setAwards("Emmy Awards");
+//	author1.setAge(77);
+//	List<Books> bookList = new ArrayList<Books>();
+//	Books book1 = new Books();
+//	book1.setBookId(6);
+//	book1.setBookName("Game Of Thrones (A Song of Ice and Fire)");
+//	book1.setPrice(599);
+//	book1.setBookUrl("https://upload.wikimedia.org/wikipedia/en/d/dc/A_Song_of_Ice_and_Fire_book_collection_box_set_cover.jpg");
+//	book1.setAuthor(author1);
 //	Books book2 = new Books();
 //	book2.setBookId(2);
 //	book2.setBookName("Harry Potter and the Chamber of Secrets");
@@ -40,24 +40,24 @@ public class EntityDriver {
 //	book3.setPrice(550);
 //	book3.setAuthor(author1);
 	
-	bookList.add(book1);
+//	bookList.add(book1);
 //	bookList.add(book2);
 //	bookList.add(book3);
 	
-	author1.setBook(bookList);
+//	author1.setBook(bookList);
 //	
-	service.createAuthor(author1);
+//	service.createAuthor(author1);
 		
 //		BookService bookService = new  BookService();
 //		bookService.fetchBooks();
 		
-//		EntityManagerFactory factory;
-//		 EntityManager manager;
-//		 EntityTransaction transaction;
-//		
-//		factory=Persistence.createEntityManagerFactory("deepak");
-//		manager=factory.createEntityManager();
-//		transaction=manager.getTransaction();
+		EntityManagerFactory factory;
+		 EntityManager manager;
+		 EntityTransaction transaction;
+		
+		factory=Persistence.createEntityManagerFactory("deepak");
+		manager=factory.createEntityManager();
+		transaction=manager.getTransaction();
 //		
 //		transaction.begin();
 //		Books books = manager.find(Books.class, 1);
@@ -79,6 +79,23 @@ public class EntityDriver {
 //			manager.persist(books5);
 //			transaction.commit();
 //		}
+//	transaction.begin();
+//	Authors authors = manager.find(Authors.class, 101);
+//	Authors authors2 = manager.find(Authors.class, 102);
+//	Authors authors3 = manager.find(Authors.class, 103);
+//	Authors authors4 = manager.find(Authors.class, 105);
+//	
+//	if(authors!=null && authors!=null &&authors!=null &&authors!=null) {
+//		authors.setAuthorPhotoUrl("https://broadwaylicensing.com/wp-content/uploads/J.K.-Rowling_square.png");
+//		authors2.setAuthorPhotoUrl("https://blog.myheritage.pl/wp-content/uploads/sites/9/featured/36247644625542012_08_PAULO_COELHO.jpg");
+//		authors3.setAuthorPhotoUrl("https://fyodor-dostoevsky.com/wp-content/themes/solution/assets/images/fyodor-dostoevsky.png");
+//		authors4.setAuthorPhotoUrl("https://hips.hearstapps.com/hmg-prod/images/george-r-r-martin-attends-the-fyc-special-screening-for-hbo-news-photo-1695312908.jpg");
+//		manager.persist(authors);
+//		manager.persist(authors2);
+//		manager.persist(authors3);
+//		manager.persist(authors4);
+//		transaction.commit();
+//	}
 				
 
 	
