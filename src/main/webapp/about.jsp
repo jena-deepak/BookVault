@@ -130,7 +130,7 @@
         </div>
 
         <!-- Team / Optional Image Section -->
-        <div class="about-card team-section">
+      <!--    <div class="about-card team-section">
             <h2>Meet Our Team</h2>
             <div class="row g-4">
                 <div class="col-md-4 text-center">
@@ -143,13 +143,13 @@
                     <h5>Asish Khuntia</h5>
                     <p>Associate Software Developer</p>
                 </div>
-                <div class="col-md-4 text-center">
+               <div class="col-md-4 text-center">
                     <img src=".//utility-imgs/Pinki(frontend dev) img.jpg" alt="Team Member 3" class="img-fluid" style="height:500px!important">
                     <h5>Pinki Pradhan</h5>
                     <p>Frontend Developer</p>
                 </div>
             </div>
-        </div>
+        </div>-->
 
     </div>
 

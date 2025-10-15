@@ -97,8 +97,8 @@
             <div class="col-md-4">
                 <div class="card service-card p-3 text-center">
                  <!--    <h5 class="card-title">Buy Books</h5>--> 
-                     <form action="" >
-                    <input class="btn border-secondary border-2" type="submit" value="Buy now">
+                     <form action="buy.jsp" >
+                    <input class="btn border-secondary border-2" type="submit" value="Buy Books">
                     </form>
                 </div>
             </div>

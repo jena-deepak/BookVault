@@ -136,7 +136,7 @@
                     <p><strong>Email:</strong> <a href="mailto:support@bookvault.com">support@bookvault.com</a></p>
                     <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 6372008821</a></p>
                     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/bookvault" target="_blank">BookVault</a></p>
-                    <p><strong>Address:</strong> 123 Library Lane, Karnatana, India</p>
+                    <p><strong>Address:</strong> Bengaluru, Karnatana, India</p>
                 </div>
             </div>
         </div>
